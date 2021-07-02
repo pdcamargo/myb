@@ -1,0 +1,20 @@
+{
+  "name": "@mybrief/components",
+  "version": "0.0.1",
+  "description": "React reusable components",
+  "author": "Patrick Dias <pdcamargo@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "",
+    "lint": "eslint **/*.{js,ts,tsx} --quiet --fix"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.10",
+    "eslint-config-mybrief": "*"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.0"
+  }
+}

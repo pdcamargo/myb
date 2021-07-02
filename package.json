@@ -1,0 +1,19 @@
+{
+  "name": "mybrief",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "yarn install; lerna bootstrap;",
+    "start": "lerna run start --parallel",
+    "start:mybrief": "yarn lerna run --scope mybrief --stream dev",
+    "start:docs": "yarn lerna run --scope @mybrief/docs --stream dev",
+    "lint": "lerna run lint"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

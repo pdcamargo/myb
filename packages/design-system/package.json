@@ -1,0 +1,25 @@
+{
+  "name": "@mybrief/design-system",
+  "version": "0.0.1",
+  "description": "The design system rules and react theme creation with styled-components",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Patrick Dias <pdcamargo@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@mybrief/core": "*",
+    "react": "17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "",
+    "lint": "eslint **/*.{js,ts,tsx} --quiet --fix"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.10",
+    "eslint-config-mybrief": "*"
+  }
+}
